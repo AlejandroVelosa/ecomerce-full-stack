@@ -16,8 +16,8 @@ const cartSlice = createSlice({
 
 export const { setCartG, addProductsCartG, deleteProductsCartG } =
   cartSlice.actions;
-export default cartSlice.reducer;
 
+export default cartSlice.reducer;
 const BASE_URL = import.meta.env.VITE_REACT_APP_URL;
 const baseUrl = `${BASE_URL}/cart`;
 
