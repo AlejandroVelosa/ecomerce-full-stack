@@ -1,0 +1,11 @@
+.similar_products {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7rem;
+}
+
+.similar_products-title {
+    color: var(--color-red);
+    margin-left: 0.4rem;
+    margin-top: 1rem;
+}

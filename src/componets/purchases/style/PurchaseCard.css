@@ -1,0 +1,22 @@
+.purchaseCard {
+    display: flex;
+    height: 100px;
+    gap: 1rem;
+    padding: .5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.242);
+    align-items: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.purchaseCard_img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.purchaseCard_title {
+    font-size: .8rem;
+}

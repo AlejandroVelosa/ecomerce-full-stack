@@ -1,0 +1,41 @@
+.productId {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productId_volver {
+    display: flex;
+    gap: 3rem;
+}
+
+.productId_volver button {
+    margin-left: 1rem;
+    border: none;
+    background-color: transparent;
+    font-size: 1.7rem;
+}
+
+
+
+@media screen and (min-width: 500px) {}
+
+@media screen and (min-width: 701px) {}
+
+@media screen and (min-width: 700px) {
+    .productId_flex {
+        display: flex;
+    }
+
+    .sliderimgs {
+        width: 50%;
+    }
+
+
+    .productinfo {
+        width: 50%;
+    }
+}
