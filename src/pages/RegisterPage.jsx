@@ -62,8 +62,7 @@ const RegisterPage = () => {
                 </div>
 
                 <div>
-                    <p>if you have successfully registered please log in. here </p>
-                    <Link to={'/Login'}><a href="#">Sign up</a></Link>
+                    <p>if you have successfully registered please <Link to={'/Login'}><a href="#">Sign up</a></Link> </p>
                 </div>
             </form>
         </div>
