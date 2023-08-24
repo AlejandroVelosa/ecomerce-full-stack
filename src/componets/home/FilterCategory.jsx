@@ -8,8 +8,8 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 const FilterCategory = () => {
 
     const BASE_URL = import.meta.env.VITE_REACT_APP_URL;
-
     const baseUrl = BASE_URL
+
     const [category, getAllCategory] = useFetch(baseUrl)
     const [isOpen, setIsOpen] = useState(false);
     const dispatch = useDispatch()
@@ -20,7 +20,7 @@ const FilterCategory = () => {
 
     const handleFilterCategory = (id) => {
         if (id) {
-            const url = `https://e-commerce-api-v2.academlo.tech/api/v1/products?categoryId=${id}`
+            const url = `${baseUrl}/products?categoryId=${id}`
             dispatch(getAllProductsThunk(url))
         } else {
             dispatch(getAllProductsThunk())

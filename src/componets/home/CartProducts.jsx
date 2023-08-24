@@ -21,17 +21,19 @@ const CartProducts = ({ prod }) => {
         e.stopPropagation()
         dispatch(postCartThunk(prod))
 
+
     }
 
+    console.log(prod);
 
     return (
         <article onClick={handleDetail} className='product'>
             <header className='product_header'>
                 <div className='product_img-container'>
-                    <img className='product_img' src={prod?.productImgs[0].url} alt="" />
+                    <img className='product_img' src={prod?.productImgs[1].url} alt="" />
                 </div>
                 <div className='product_img-container'>
-                    <img className='product_img' src={prod?.productImgs[1].url} alt="" />
+                    <img className='product_img' src={prod?.productImgs[2].url} alt="" />
                 </div>
             </header>
             <section className='product_body'>

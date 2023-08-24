@@ -23,9 +23,8 @@ const baseUrl = `${BASE_URL}/cart`;
 
 // THUNKS
 export const getCartThunk = () => (dispatch) => {
-  const url = baseUrl;
   axios
-    .get(url, getConfigAuth())
+    .get(baseUrl, getConfigAuth())
     .then((res) => dispatch(setCartG(res.data)))
     .catch((err) => console.log(err));
 };
