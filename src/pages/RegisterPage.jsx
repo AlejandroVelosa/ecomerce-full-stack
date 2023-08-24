@@ -3,6 +3,7 @@ import useAuth from "../hooks/useAuth"
 import './Styles/RegisterPage.css'
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const RegisterPage = () => {
 
     const { register, handleSubmit, reset } = useForm()
@@ -58,6 +59,11 @@ const RegisterPage = () => {
 
                 <div className="register_button">
                     <button className="form--submit">Submit</button>
+                </div>
+
+                <div>
+                    <p>if you have successfully registered please log in. here </p>
+                    <Link to={'/Login'}><a href="#">Sign up</a></Link>
                 </div>
             </form>
         </div>

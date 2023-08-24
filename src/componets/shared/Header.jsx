@@ -31,7 +31,7 @@ const Header = () => {
                     <button className='navbar_button-' onClick={handleLinkClick} >
                         <Link className="navbar_link" to={'/'}>Home <span> <i className='bx bx-home  '></i></span> </Link>
                     </button >
-                    <button className='navbar_button-' onClick={handleLinkClick}>
+                    {/* <button className='navbar_button-' onClick={handleLinkClick}>
                         <Link
                             className="navbar_link" to={'/register'}>
                             Register
@@ -39,7 +39,7 @@ const Header = () => {
                                 <i className='bx bx-edit-alt'></i>
                             </span>
                         </Link>
-                    </button>
+                    </button> */}
                     <button className='navbar_button-' onClick={handleLinkClick}>
                         <Link className="navbar_link" to={'/login'}>Login <span><i className='bx bxs-user'></i></span></Link>
                     </button>
