@@ -24,8 +24,6 @@ const CartProducts = ({ prod }) => {
 
     }
 
-    console.log(prod);
-
     return (
         <article onClick={handleDetail} className='product'>
             <header className='product_header'>

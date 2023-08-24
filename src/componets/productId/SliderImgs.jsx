@@ -28,8 +28,6 @@ const SliderImgs = ({ product }) => {
 
 
 
-    console.log(product);
-
     return (
         <>
             <div className='slider'>
